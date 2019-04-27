@@ -4,7 +4,7 @@
 export ENCRYPTION_KEY=$(head -c 32 /dev/urandom | base64)
 
 # 集群各机器 IP 数组
-export NODE_IPS=(192.168.33.11 192.168.33.12 192.168.13)
+export NODE_IPS=(192.168.33.11 192.168.33.12 192.168.33.13)
 
 # 集群各 IP 对应的 主机名数组
 export NODE_NAMES=(node1 node2 node3)
